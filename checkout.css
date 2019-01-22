@@ -1,0 +1,171 @@
+/*
+	team 1
+	12-6-2018
+	CSCI 3000 DA
+	checkout.css, connects to Drinks_Checkout.php
+*/
+
+/*style for the body*/
+body{
+	background: #A9D0F5;
+	text-align: center;
+}
+
+/* Styling for the paragraph elements */
+p {
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 130%;
+}
+p#welcome {
+	width: 175px;
+	display: none;
+	margin: 10px auto 0px auto;
+}
+
+ /*styles the h# tags*/
+h1{
+	 font-family: Helvetica;
+	 font-size: 2vw;
+ }
+ /*styles the h2 tag*/
+  h2{
+	font-size: 200%;
+	font-family: Trebuchet;
+ }
+ /*styles the btm error message*/
+ h2#btmERR{
+		color: red;
+	 	font-family: Trebuchet;
+ }
+
+ 
+/* Styling for the cart table */
+table {
+	background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+	border: 5px solid black;
+	border-radius: 5px;
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+}
+th {
+	border-bottom: 1px solid gray;
+	background:#E0ECF8;
+}
+th, td {
+	border-right: 2px solid black;
+	padding: 5px 10px 5px 10px;
+}
+td {
+	border-bottom: 1px solid gray;
+}
+
+/* Styling for the navigation box */
+.topper {
+	float: right;
+	position: fixed;
+	top: 0;
+	background:#E0ECF8;
+	border-style: solid;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+/* Styling for inputs in the navigation box */
+input.nav{
+	display: block;
+	padding: 7px 45px;
+	border-radius: 25px;
+	background: #A9D0F5;
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+	width: 150px;
+}
+
+/* Visibility for the login/logout buttons */
+input#login{
+	display: block;
+}
+
+/*buttons shadow on hover*/
+input.nav:hover{
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+input#go:hover{
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+input#top:hover{
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+ 
+  /*styles the create account button*/
+ input#go{
+	padding: 7px 160px;
+	border-radius: 25px;
+	background: #A9D0F5;
+ }
+ 
+  /*styles the top button*/
+ input#top{
+	 padding: 7px 125px;
+	 margin-top: 50px;
+	 font-size: 130%;
+	 border-radius: 25px;
+	 background: #A9D0F5;
+ }
+
+ /*rectangle*/
+div#rectangle{
+	/* margin-top: 60px; */
+    width:75%;
+    /* height:500px; */
+    background:#E0ECF8;
+	/* display: inline-block; */
+	border-style: solid;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+}
+
+/* Styles the logo */
+img#logo {
+	width: 590px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*styles button*/
+button{
+	height: 70px;
+	width:170px;
+	font-size: 3vw;
+	background: #CEE3F6;
+	color: #08088A;
+	border-radius: 35px;
+}
+
+
+
+ /*changes the way the website appears when the screen size shrinks*/
+@media only screen and (max-width: 700px) {
+	h1{font-size: 150%;}
+	h2{font-size: 150%;}
+	h3{font-size: 150%;}
+	button{width: 120px; font-size: 120%;}
+	input#top{font-size: 100%; padding: 6px 90px;}
+	/* input#home{font-size: 100%; padding: 6px 110px; } */
+	input#go{font-size: 100%; padding: 6px 80px;}
+	/* div#rectangle{height: 500px; width:300px;} */
+	input{
+	 padding: 5px 50px;
+	 font-size: 100%;
+	}
+}
+
+

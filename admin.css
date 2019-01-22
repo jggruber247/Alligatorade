@@ -1,0 +1,98 @@
+/*
+	team 1
+	12-6-2018
+	CSCI 3000 DA
+	admin.css, connects to Drinks_Admin.php
+*/
+
+/*style for the body*/
+body{
+	background: #A9D0F5;
+	text-align: center;
+}
+ /*styles the h# tags*/
+ h1{
+	 margin-top: 20px;
+	 font-family: Helvetica;
+	 font-size: 4vw;
+ }
+ /*styles the h2 tag*/
+  h2{
+	font-size: 200%;
+	font-family: Trebuchet;
+ }
+ /*styles the btm error message*/
+ h2#btmERR{
+		color: red;
+	 	font-family: Trebuchet;
+ }
+/*styles the submit button*/
+ input#home{
+	padding: 7px 160px;
+	border-radius: 25px;
+	background: #A9D0F5;
+ }
+ /*buttons shadow on hover*/
+   input#home:hover{
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  /*styles the create account button*/
+ input#go{
+	padding: 7px 160px;
+	border-radius: 25px;
+	background: #A9D0F5;
+ }
+
+  /*buttons shadow on hover*/
+  input#go:hover{
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  /*styles the top button*/
+ input#top{
+	 padding: 7px 125px;
+	 margin-top: 50px;
+	 font-size: 130%;
+	 border-radius: 25px;
+	 background: #A9D0F5;
+ }
+  /*buttons shadow on hover*/
+   input#top:hover{
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+ /*rectangle*/
+div#rectangle{
+	margin-top: 60px;
+    width:75%;
+    height:25%;
+    background:#E0ECF8;
+	display: inline-block;
+	border-style: solid;
+}
+
+/*styles button*/
+button{
+	height: 70px;
+	width:170px;
+	font-size: 3vw;
+	background: #CEE3F6;
+	color: #08088A;
+	border-radius: 35px;
+}
+
+
+
+ /*changes the way the website appears when the screen size shrinks*/
+@media only screen and (max-width: 700px) {
+	h1{font-size: 150%;}
+	h2{font-size: 150%;}
+	h3{font-size: 150%;}
+	button{width: 120px; font-size: 120%;}
+	input#top{font-size: 100%; padding: 6px 90px;}
+	input#home{font-size: 100%; padding: 6px 110px; }
+	input#go{font-size: 100%; padding: 6px 80px;}
+	div#rectangle{height: 25%; width:70%;}
+	input{
+	 padding: 5px 50px;
+	 font-size: 100%;
+	}
+}

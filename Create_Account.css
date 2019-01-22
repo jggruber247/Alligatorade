@@ -1,0 +1,90 @@
+/*
+	
+	12-6-2018
+	CSCI 3000 DA 
+	Create_Account.css, connects to Drinks_Account_create.php
+*/
+
+/*style for the body*/
+body{
+	background: #A9D0F5;
+	text-align: center;
+}
+ /*styles the h# tags*/
+ h1{
+	 margin-top: 20px;
+	 font-family: Helvetica;
+	 font-size: 250%;
+ }
+ /*styles the warning message*/
+ h2#warning{
+		font-size: 200%;
+		color: red;
+	 	font-family: Trebuchet;
+ }
+ /*styles the user input field*/
+ 
+input{
+	 padding: 7px 70px;
+	 font-size: 120%;
+ }
+ /*styles the botm button*/
+ input#sub{
+	padding: 7px 160px;
+	border-radius: 25px;
+	background: #A9D0F5;
+ }
+ /*shadow on button*/
+   input#sub:hover{
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+/*styles the top button*/
+  
+ input#top{
+	 padding: 7px 125px;
+	 margin-top: 50px;
+	 font-size: 130%;
+	 border-radius: 25px;
+	 background: #A9D0F5;
+ }
+ /*shadow on button*/
+   input#top:hover{
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+ /*rectangle*/
+div#rectangle{
+	margin-top: 60px;
+    width:400px;
+    height:600px;
+    background:#E0ECF8;
+	display: inline-block;
+	border-style: solid;
+}
+
+/*styles button*/
+button{
+	height: 70px;
+	width:170px;
+	font-size: 150%;
+	background: #CEE3F6;
+	color: #08088A;
+	border-radius: 35px;
+}
+ 
+
+ 
+ /*changes the way the website appears when the screen size shrinks*/
+	@media only screen and (max-width: 700px) {
+	h1{font-size: 150%;}
+	h2#warning{font-size: 150%;}
+	h3{font-size: 150%;}
+	button{width: 120px; font-size: 120%;}
+	input#top{font-size: 100%; padding: 6px 90px;}
+	input#sub{font-size: 100%; padding: 6px 113px; }
+	input#create{font-size: 100%; padding: 6px 80px;}
+	div#rectangle{height: 500px; width:300px;}
+	input{
+	 padding: 5px 50px;
+	 font-size: 100%;
+	}
+}

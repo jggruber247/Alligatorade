@@ -1,0 +1,123 @@
+/* FILE: "homepage.css"
+Garrett Gruber 
+This is the styling sheet for 'Drinks_Homepage.php' .*/
+body{
+	background: #A9D0F5;
+	text-align: center;
+}
+p {
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 130%;
+}
+p.cart {
+	width: 150px;
+	margin: 5px auto 5px auto;
+	font-size: 90%;
+	color: green;
+}
+p#line1 {
+	margin-top: 150px;
+	display: none;
+}
+p#line3 {
+	font-weight: bold;
+}
+p#welcome {
+	width: 175px;
+	display: none;
+	margin: 10px auto 0px auto;
+}
+
+
+table {
+	background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+th {
+	font-size: 160%;
+	border-bottom: 1px solid gray;
+	background:#E0ECF8;
+}
+th, td {
+	border-right: 2px solid black;
+	width: 350px;
+	padding: 10px 35px 10px 35px;
+}
+input{
+	display: block;
+	padding: 7px 50px;
+	border-radius: 25px;
+	background: #A9D0F5;
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+	width: 150px;
+}
+
+/*buttons shadow on hover*/
+input:hover{
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+input#login{
+	display: block;
+}
+input#logout{
+	display: none;
+}
+input.hidden {
+	display: none;
+}
+input#addCart {
+	text-align: center;
+	padding-left: 40px;
+	display: none;
+	background: green;
+	color: white;
+}
+
+img {
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+img#logo {
+	width: 590px;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+button {
+	border-radius: 25px;
+	background: #A9D0F5;
+	width: 110px;
+	margin-left: auto;
+	margin-right: auto;
+}
+button:hover{
+	background: #A0F5D0;
+	border: 2px solid black;
+}
+  
+.container {
+    max-width: 80%;
+    overflow-x: auto;
+    white-space: nowrap;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid black;
+	border-radius: 5px;
+}
+.topper {
+	float: right;
+	position: fixed;
+	top: 0;
+	background:#E0ECF8;
+	border-style: solid;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
