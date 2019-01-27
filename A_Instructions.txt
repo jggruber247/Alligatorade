@@ -1,8 +1,0 @@
-Instructions
-make sure you save all php and css files in the htdocs folder found in your c drive, under xampp. 
-create a new file in the htdocs folder named Final_Project.
-also make sure that you have the right address when opening the files, localhost/Final_Project/Drinks_Homepage.php
-as of 11-9-18 everything is conneceted not everything is fully operational.
-spencer the checkout page works but you need to make a form that allows the user to input payment stuff and then check if the input is correct 
-before allowing the buy button to execute its function. proable best way is to just make the form, and then add some if statements to the buy button function
-that will check to make sure the info is good.
